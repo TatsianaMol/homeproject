@@ -1,0 +1,244 @@
+*,*::before, *:after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    color: #212121;
+}
+
+:root{
+    --backcolor:#CAA892;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+h1,p, h2,h3{
+    margin:0;
+    padding: 0;
+}
+
+
+.btn{
+    padding: 18px 28px;
+    background-color: #37806B;
+    color: #FFFFFF;
+    border-radius: 50% 0 50% 0;
+    font-size: 18px;
+    font-weight: bold;
+    border: transparent;
+
+}
+/* navigation */
+
+.navigation {
+/* background-color: #CAA892; */
+}
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 94px 0;
+    align-items: center;
+}
+
+div .nav__wrapper-list{
+    text-decoration:none;
+    color: #212121;
+}
+.nav_wrapper-item {
+    display: flex;
+    align-items: center;
+}
+
+.img__logo{
+    cursor: pointer;
+
+}
+.nav__wrapper-list {
+    padding-right: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color .2s ease;
+}
+.nav__wrapper-list:hover{
+    color:#646464;
+}
+
+div .nav__btn{
+    color: #FFFFFF;
+/*     width: 97px;
+    height: 32px; */
+    background-color: var(--backcolor);
+    border-radius: 50% 0 50% 0;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 19px;
+    font-family: "Open Sans";
+    border-color: transparent;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    
+}
+
+/* create page */
+
+.create {
+    margin-bottom: 150px;
+}
+.create_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.create_wrapper-item {
+    padding-right: 44px;
+    position: relative;
+}
+.create_smalltext {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #646464;
+
+}
+.create-h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 500;
+}
+.create_moretext {
+    color: #646464;
+    margin: 15px 0 25px 0;
+}
+
+.create__img-shadow{
+    width: 715px;
+    height: 625px;
+    border: 2px solid #CAA892;
+    position: absolute;
+    top:30px;
+    left: 40px;
+    border-radius: 30% 0 30% 0;
+    z-index: 0;
+}
+
+.create_img{
+    z-index: 1;
+    position: relative;
+}
+
+.create_btn{
+    margin-top: 28px;
+}
+
+
+/* service */
+
+.service {
+
+}
+.service_smalltext {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #646464;
+}
+.service-h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 500;
+    /* padding-bottom: 50px; */
+}
+
+
+.service__wrapper {
+    display: flex;
+    padding-top: 51px;
+    padding-bottom: 200px;
+    justify-content: space-between;
+    width: 1400px;
+}
+.service__wrapper-item {
+    display: flex;  
+    /* margin-right: 30px; */
+    padding: 20px 10px 0px 50px;
+    border-radius: 35% 0;
+    width: 425px;
+    height: 170px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    transition: .2s ease;
+
+}
+
+.service__wrapper-item:last-child{
+    margin-right: 0px;
+}
+.service__wrapper-item:hover{
+    color: #FFFFFF;
+    background-color: var(--backcolor);
+}
+
+.service__wrapper-text {
+    padding-left: 20px;
+}
+.service-h3 {
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+.service_alltext {
+}
+
+.service_imgsm{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;   
+}
+
+.service_arroy{
+    background-color: #FFFFFF;
+    border: transparent;
+    color: #37806B;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    border-radius: 50%;
+    padding: 5px 10px;
+    float: right;
+    margin-right: 5px;
+    transition: .2s ease;
+}
+
+.service_arroy:hover{
+    color: #FFFFFF;
+    background-color: #37806B;
+}
+
+.about__img-shadow{
+    width: 715px;
+    height: 625px;
+    border: 2px solid #CAA892;
+    position: absolute;
+    top:-25px;
+    left: -40px;
+    border-radius: 30% 0 30% 0;
+    z-index: 0;
+}
+
+.about-h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.about__with{
+    width: 545px;
+    height: 410px;
+}
+
+
