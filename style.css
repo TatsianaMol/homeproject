@@ -237,8 +237,25 @@ div .nav__btn{
 }
 
 .about__with{
-    width: 545px;
+    width: 540px;
     height: 410px;
 }
 
+/* number */
+
+.h1_number{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.number__img-shadow{
+    width: 680px;
+    height: 726px;
+    border: 2px solid #CAA892;
+    position: absolute;
+    top:50px;
+    left: 40px;
+    border-radius: 30% 0 30% 0;
+    z-index: 0;
+}
 
