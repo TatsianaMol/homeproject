@@ -259,3 +259,45 @@ div .nav__btn{
     z-index: 0;
 }
 
+/* works */
+
+.works {
+    background-color: #F8F8F8;
+    padding-bottom: 50px;
+    margin-bottom: 160px;
+}
+.works__text {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 87px;
+}
+.works__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 87px;
+    
+}
+.works__item {
+    width: 185px;
+    height: 182px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40% 0 40% 0;
+}
+
+.works_num{
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.works__item:nth-child(even){
+    margin-top: 100px;
+}
+
+
+
